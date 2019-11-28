@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="54" height="54" viewBox="0 0 54 54">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="54" height="54" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="ic_buscar" clip-path="url(#clip-path)">
+    <circle id="Elipse_1" data-name="Elipse 1" cx="27" cy="27" r="27" fill="#083971"/>
+    <g id="Grupo_58" data-name="Grupo 58" transform="translate(15.315 15.389)">
+      <g id="Elipse_2" data-name="Elipse 2" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+        <ellipse cx="11.196" cy="11.196" rx="11.196" ry="11.196" stroke="none"/>
+        <ellipse cx="11.196" cy="11.196" rx="9.696" ry="9.696" fill="none"/>
+      </g>
+      <path id="Trazado_1" data-name="Trazado 1" d="M1305,551l4.892,4.969" transform="translate(-1286.45 -532.037)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>
