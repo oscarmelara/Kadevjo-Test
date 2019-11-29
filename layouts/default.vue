@@ -2,13 +2,16 @@
   <div>
     <main-menu/>
     <nuxt />
+    <main-footer/>
   </div>
 </template>
 <script>
 import MainMenu from '@/components/MainMenu.vue';
+import MainFooter from '@/components/MainFooter.vue';
 export default {
   components: {
-    MainMenu
+    MainMenu,
+    MainFooter
   }
   
 }

@@ -30,6 +30,7 @@ export default {
   */
   plugins: [
     { src: '~/plugins/swiper.js', ssr: false },
+    { src: '~/plugins/vue2-google-maps.js' }
   ],
   /*
   ** Nuxt.js dev-modules
@@ -42,6 +43,7 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    
   ],
   /*
   ** Build configuration
@@ -51,6 +53,8 @@ export default {
     ** You can extend webpack config here
     */
     extend (config, ctx) {
-    }
+      
+    },
+    transpile: [/^vue2-google-maps($|\/)/]
   }
 }
