@@ -45,9 +45,22 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    '@nuxtjs/dotenv'
+    '@nuxtjs/dotenv',
+    '@nuxtjs/pwa',
     
   ],
+
+  icon: {
+    iconSrc: './static/android.png',
+  },
+
+  manifest: {
+    short_name: 'Kadejo',
+    name: 'Kadevjo Text',
+    start_url: '/',
+    theme_color: 'white',
+    
+  },
   /*
   ** Build configuration
   */
