@@ -13,12 +13,12 @@
               </div>
               <div class="p-4">
                 <div class="flex items-center">
-                  <h1 class="text-gray-700 font-bold text-2xl leading-none">{{ place.name }}</h1>
+                  <h1 class="text-gray-500 font-bold text-xl xl:text-2xl leading-none">{{ place.name }}</h1>
                   <img src="@/assets/images/heart.png" alt="">
                 </div>
                 <div class="mt-2">
                   <p class="font-semibold text-gray-500">{{ place.company }}</p>
-                  <p class="text-gray-400 text-sm flex items-center mt-3"><img class="mr-2" src="@/assets/images/flag.png" alt="">{{ place.city }}</p>
+                  <p class="text-gray-500 text-sm flex items-center mt-3"><img class="mr-2" src="@/assets/images/flag.png" alt="">{{ place.city }}</p>
                 </div>
               </div>
             </div>
@@ -50,17 +50,14 @@ export default {
           slidesPerGroup: 2,
           loopFillGroupWithBlank: true,
           
-          pagination: {
-            el: '.swiper-pagination',
-            clickable: true
-          },
+          
           navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev'
           },
           breakpoints: {
             1024: {
-              slidesPerView: 4,
+              slidesPerView: 3,
               spaceBetween: 30
             },
             768: {
