@@ -1,6 +1,7 @@
 <template>
   <div>
     <main-menu/>
+    <slider-menu />
     <nuxt />
     <main-footer/>
   </div>
@@ -8,10 +9,13 @@
 <script>
 import MainMenu from '@/components/MainMenu.vue';
 import MainFooter from '@/components/MainFooter.vue';
+import SliderMenu from '@/components/SliderMenu.vue';
+
 export default {
   components: {
     MainMenu,
-    MainFooter
+    MainFooter,
+    SliderMenu
   }
   
 }

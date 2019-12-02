@@ -10,7 +10,7 @@
                 <li class="flex items-center"><router-link class="text-gray-700" to="" >opcion</router-link></li>
                 <li class="flex items-center"><router-link class="text-gray-700" to="" >opcion</router-link></li>
                 <li class="flex items-center"><router-link class="text-gray-700" to="" >opcion</router-link></li>
-                <li class="flex items-center"><router-link class="text-gray-700" to="" >Iniciar sesion</router-link></li>
+                <li class="flex items-center"><router-link class="text-gray-700 flex" to="" ><img class="mr-2 h-5" src="@/assets/images/profile.svg" alt=""> Iniciar sesion</router-link></li>
             </ul>
         </div>
     </div>
