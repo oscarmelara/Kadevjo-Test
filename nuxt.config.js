@@ -25,7 +25,7 @@ export default {
   ** Global CSS
   */
   css: [
-    'swiper/dist/css/swiper.css'
+    
   ],
   /*
   ** Plugins to load before mounting the App
@@ -59,7 +59,7 @@ export default {
     name: 'Kadevjo Text',
     start_url: '/',
     theme_color: 'white',
-    
+
   },
   /*
   ** Build configuration

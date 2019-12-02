@@ -50,7 +50,7 @@
     
 </template>
 <script>
-import 'swiper/dist/css/swiper.css'
+import '@/assets/css/swiper.css';
 export default {
     name: 'Testimonial',
     data: () => {
