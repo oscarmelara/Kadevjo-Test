@@ -181,6 +181,7 @@ export default {
 /* Border Map Google */
 .vue-map {
   border-radius: 3%;
+  height: 300px;
 }
 
 /* Section Ours */

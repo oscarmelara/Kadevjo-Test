@@ -36,7 +36,7 @@
                 </p>
             </div>
         </div>
-        <div class="w-full py-6">
+        <div class="w-full py-6 px-2">
             <p class="text-gray-600 text-sm text-center">©2019 Alcaldía de la Ciudad de San Salvador.Todos los Derechos Reservados Alameda Juan Pablo II y Avenida Cuscatancingo No 320 San Salvador, El Salvador</p>
         </div>
     </div>
