@@ -14,7 +14,7 @@
           </div>
         </form>
         <div class="w-full flex justify-end mt-6 block md:hidden">
-          <img class=" w-1/2" src="~/assets/images/photo.png" alt="">
+          <img class=" w-1/2 absolute right-0" src="~/assets/images/photo.png" alt="">
         </div>
       </div>
       

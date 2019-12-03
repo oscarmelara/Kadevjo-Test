@@ -3,10 +3,10 @@
 <footer class="w-full bg-gray-900">
     <div class="container mx-auto flex flex-wrap">
         <div class="flex py-6 lg:py-16 xl:py-16 w-full lg:w-1/3 xl:w-1/3 justify-center items-center ">
-            <div >
+            <div class="w-1/4 flex justify-center">
                 <img src="~/assets/images/places.svg" alt="">
             </div>
-            <div class=" w-9/12 px-6">
+            <div class=" w-9/12 ">
                 <P class="uppercase text-white text-sm">Oficinas centrales</P>
                 <p class="text-white text-sm">Direccion: Alameda Juan Pablo II,
                     Avenida Cuscatancingo, #320
@@ -14,10 +14,10 @@
             </div>
         </div>
         <div class="flex py-6 lg:py-16 xl:py-16 w-full lg:w-1/3 xl:w-1/3 justify-center items-center">
-            <div >
+            <div class="w-1/4 flex justify-center">
                 <img src="~/assets/images/phone.svg" alt="">
             </div>
-            <div class=" w-9/12 px-6">
+            <div class=" w-9/12 ">
                 <P class="uppercase text-white text-sm">Punto de atencion empresarial</P>
                 <p class="text-white text-sm">25116000 ext 1343
                 </p>
@@ -27,10 +27,10 @@
             </div>
         </div>
         <div class="flex py-6 lg:py-16 xl:py-16 w-full lg:w-1/3 xl:w-1/3 justify-center items-center">
-            <div >
+            <div class="w-1/4 flex justify-center">
                 <img src="~/assets/images/time.svg" alt="">
             </div>
-            <div class=" w-9/12 px-6">
+            <div class=" w-9/12 ">
                
                 <p class="text-white text-sm">Horario de Atencion: De Lunes a Viernes de 8:00 a.m. a 4:00 p.m.
                 </p>
