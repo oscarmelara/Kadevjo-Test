@@ -1,7 +1,7 @@
 <template id="slidemenu">
   <div class="w-full bg-white fixed menu block lg:hidden border-b border-gray-300 z-50">
         <div class="w-1/2 flex justify-start items-center my-2">
-           <router-link to="/profile"><img class="w-48 mr-16 px-5 lg:px-0" src="@/assets/images/logo-menu.png" alt></router-link>
+           <router-link to=""><img class="w-48 mr-16 px-5 lg:px-0" src="@/assets/images/logo-menu.png" alt></router-link>
         </div>
         <div class="pointer" :class="['menu__burger', {'menu__burger--open': this.open}] " @click="toggleNav">
             <span class="menu__burger__span"></span>
@@ -11,20 +11,20 @@
           <div class="menu-container py-4 flex w-full h-full justify-center items-center">
             <ul class="menu-wrapper text-2xl mx-0 my-auto">
               <li @click="setActiveClass" class="menu-item py-2 text-gray-700 text-left font-semibold">
-                <router-link to="/profile">Option</router-link>
+                <router-link to="">Option</router-link>
               </li>
               
               <li @click="setActiveClass" class="menu-item py-2 text-gray-700 text-left font-semibold">
-                <router-link to="/search">Option</router-link>
+                <router-link to="">Option</router-link>
               </li>
               <li @click="setActiveClass" class="menu-item py-2 text-gray-700 text-left font-semibold">
-                <router-link to="/chat">Option</router-link>
+                <router-link to="">Option</router-link>
               </li>
               <li @click="setActiveClass" class="menu-item py-2 text-gray-700 text-left font-semibold">
-                <router-link to="/support">Option</router-link>
+                <router-link to="">Option</router-link>
               </li>
               <li @click="setActiveClass" class="menu-item py-2 text-gray-700 text-left font-semibold">
-                <router-link class="flex items-center" to="/subscriptions"><img class="mr-2 h-5" src="@/assets/images/profile.svg" alt=""> Iniciar sesion</router-link>
+                <router-link class="flex items-center" to=""><img class="mr-2 h-5" src="@/assets/images/profile.svg" alt=""> Iniciar sesion</router-link>
               </li>
               
             </ul>
