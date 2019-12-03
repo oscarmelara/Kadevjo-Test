@@ -30,9 +30,9 @@ export default {
     '@/assets/css/swiper.css'
   ],
 
-env: {
-  KEY_MAP: process.env.KEY_MAP
-},
+  env: {
+    KEY_MAP: process.env.KEY_MAP
+  },
 
   /*
   ** Plugins to load before mounting the App
@@ -62,8 +62,8 @@ env: {
   },
 
   manifest: {
-    short_name: 'Kadejo',
-    name: 'Kadevjo Text',
+    short_name: 'Kadejo Test PWA',
+    name: 'Kadevjo Test',
     start_url: '/',
     theme_color: 'white',
     
